@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+  int a = 15, b = 10;
+  int c = 1200, d = 1199;
+  int e = 17, f = 13;
+  int g = 144, h = 12;
+  
+  int soma = a + b;
+  printf("A adição de %d + %d será de %d\n", a, b, soma);
+
+  int subtracao = c - d;
+  printf("A subtração de %d - %d será de %d\n", c, d, subtracao);
+
+  int mult = e * f;
+  printf("A multiplicação de %d * %d será de %d\n", e, f, mult);
+  
+  int div = g / h;
+  printf("A divisão de %d / %d será de %d\n", g, h, div);
+  
+  return 0;
+}
